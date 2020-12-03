@@ -73,7 +73,7 @@ def parserHtml(html):
         blist.append(image)
 
         usrinfo.append(blist)
-        print("姓名:",nickname,sex, age, marriage,height,education,work_location,shortnote)
+        print("","网名:",nickname,'\n',"性别:",sex,'\n',"年龄:", age,'\n',"学历:",marriage,'\n',"身高:",height,'\n',"学历:",education,'\n',"居住",work_location,'\n',"个性宣言:",shortnote,'\n')
 
     writePage(usrinfo)
     print('---' * 20)
